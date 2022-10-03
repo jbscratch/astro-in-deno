@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@": "./",
+    "@/": "./",
+    "astro": "npm:astro@1.4.2",
+    "astro/": "npm:astro@1.4.2/",
+    "@astrojs/deno": "npm:@astrojs/deno@1.1.0",
+    "@astrojs/deno/": "npm:@astrojs/deno@1.1.0/"
+  }
+}
