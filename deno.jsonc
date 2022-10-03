@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "cache-astro": "deno run --unstable --allow-env --allow-read --allow-write --reload=npm:astro@1.4.2 --allow-net npm:astro@1.4.2",
+    "cache-astro": "deno run --unstable -A --reload=npm:astro@1.4.2 npm:astro@1.4.2",
     "astro": "deno run --unstable --allow-env --allow-read --allow-write --allow-net npm:astro@1.4.2",
     "astro-v": "deno task astro --version",
     "astro-b": "deno task astro build",
