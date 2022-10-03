@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "cache-astro": "deno run --unstable --allow-env --allow-read --allow-write --reload=npm:astro@1.4.2 --allow-net npm:astro@1.4.2",
+    "astro": "deno run --unstable --allow-env --allow-read --allow-write --allow-net npm:astro@1.4.2",
+    "astro-v": "deno task astro --version",
+    "astro-b": "deno task astro build",
+    "build": "npm run build",
+    "preview": "npm run build && deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs"
+  },
+  "importMap": "importMap.json"
+}
