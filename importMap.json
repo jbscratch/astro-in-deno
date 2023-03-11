@@ -2,9 +2,9 @@
   "imports": {
     "@": "./",
     "@/": "./",
-    "astro": "npm:astro@1.4.2",
-    "astro/": "npm:astro@1.4.2/",
-    "@astrojs/deno": "npm:@astrojs/deno@1.1.0",
-    "@astrojs/deno/": "npm:@astrojs/deno@1.1.0/"
+    "astro": "npm:astro@2.1.2",
+    "astro/": "npm:/astro@2.1.2/",
+    "@astrojs/deno": "npm:@astrojs/deno@4.1.0",
+    "@astrojs/deno/": "npm:/@astrojs/deno@4.1.0/"
   }
 }
